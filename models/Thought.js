@@ -5,7 +5,8 @@ const courseSchema = new Schema(
     thoughtText: {
       type: String,
       required: true,
-      // TODO: Must be between 1 and 280 char
+      min: 1,
+      max: 280
     },
     createdAt: {
       type: Date,
@@ -13,9 +14,7 @@ const courseSchema = new Schema(
     },
     username: {
       type: String,
-      required: true,
-      min: 1,
-      max: 280
+      required: true
     },
     reactions: [
       {

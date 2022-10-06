@@ -5,9 +5,9 @@ connection.on('error', (err) => err);
 
 connection.once('open', async () => {
   console.log('connected');
-  await Thought.deleteMany({});
-  await User.deleteMany({});
-  await Reaction.deleteMany({});
+  // await Thought.deleteMany({});
+  // await User.deleteMany({});
+  // await Reaction.deleteMany({});
 
   const users = [
     {
