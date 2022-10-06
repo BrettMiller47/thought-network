@@ -1,0 +1,8 @@
+$ npm run seed
+connected, but:
+
+await Thought.deleteMany({});
+                ^
+TypeError: Cannot read properties of undefined (reading 'deleteMany')
+
+---------------------------------------------------------------------------

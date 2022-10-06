@@ -1,0 +1,14 @@
+[
+  {
+    "reactionBody": "reactionBody1",
+    "username": "username1"
+  },
+  {
+    "reactionBody": "reactionBody2",
+    "username": "username2"
+  },
+  {
+    "reactionBody": "reactionBody3",
+    "username": "username3"
+  }
+]
